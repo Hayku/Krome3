@@ -1,0 +1,38 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.haykuproductions.krome.MainActivity">
+    <item
+        android:icon="@drawable/previous"
+        android:orderInCategory="101"
+        android:title="Previous"
+        app:showAsAction="always"
+        android:id="@+id/btPrev" />
+
+    <item
+        android:icon="@drawable/next"
+        android:orderInCategory="101"
+        android:title="Next"
+        app:showAsAction="always"
+        android:id="@+id/btNext" />
+    <item
+        android:icon="@drawable/home"
+        android:orderInCategory="101"
+        android:title="Home"
+        app:showAsAction="always"
+        android:id="@+id/btHome" />
+    <item
+        android:icon="@android:drawable/ic_popup_sync"
+        android:orderInCategory="101"
+        android:title="Reload"
+        app:showAsAction="always"
+        android:id="@+id/btReload" />
+    <item
+        android:icon="@android:drawable/ic_menu_delete"
+        android:orderInCategory="101"
+        android:title="Limpiar_Historial"
+        app:showAsAction="always"
+        android:id="@+id/btBorrar" />
+</menu>
+
+
